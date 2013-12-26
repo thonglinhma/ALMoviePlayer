@@ -1,2 +1,4 @@
 ALMoviePlayer
 =============
+
+MIT
