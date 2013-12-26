@@ -341,6 +341,7 @@ static NSString* const ALMoviePlayerViewControllerRateObservationContext = @"ALM
     _toolbar.frame = [self frameForToolbarAtOrientation:currentOrientation];
     _doneButton.frame = [self frameForDoneButtonAtOrientation:currentOrientation];
     _playerView.frame = self.view.bounds;
+    _loadingSpinner.center = _playerView.center;
     _backgroundScreenshotView.frame = self.view.bounds;
     _backgroundScreenshotView.image = [self rotateImageToCurrentOrientation:_backgroundScreenshot];
     _overlayBackgroundView.frame = self.view.bounds;
